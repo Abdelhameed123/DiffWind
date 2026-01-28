@@ -1,4 +1,4 @@
-# [ICLR2026] DiffWind: Physics-Informed Differentiable Modeling of Wind-Driven Object Dynamics
+# [ICLR 2026] DiffWind: Physics-Informed Differentiable Modeling of Wind-Driven Object Dynamics
 
 
 ### [Project Page](https://zju3dv.github.io/DiffWind/) | [OpenReview](https://openreview.net/forum?id=vKVzihkbQo) | [Arxiv]() | [Supplementary]()
